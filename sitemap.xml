@@ -3,24 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>ncoleman.gtihub.io/about/</loc>
+    <loc>https://www.nickcoleman.org/</loc>
+    <lastmod>2020-06-14T23:10:32+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.nickcoleman.org/posts/</loc>
+    <lastmod>2020-06-14T23:10:32+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.nickcoleman.org/posts/starting-out/</loc>
+    <lastmod>2020-06-14T23:10:32+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.nickcoleman.org/about/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>ncoleman.gtihub.io/categories/</loc>
+    <loc>https://www.nickcoleman.org/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>ncoleman.gtihub.io/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>ncoleman.gtihub.io/tags/</loc>
+    <loc>https://www.nickcoleman.org/tags/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

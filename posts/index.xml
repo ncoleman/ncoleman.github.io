@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Nick Coleman</title>
-    <link>ncoleman.gtihub.io/posts/</link>
+    <link>https://www.nickcoleman.org/posts/</link>
     <description>Recent content in Posts on Nick Coleman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 14 Jun 2020 23:10:32 +0800</lastBuildDate>
     
-	<atom:link href="ncoleman.gtihub.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.nickcoleman.org/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Starting Out</title>
-      <link>ncoleman.gtihub.io/posts/starting-out/</link>
+      <link>https://www.nickcoleman.org/posts/starting-out/</link>
       <pubDate>Sun, 14 Jun 2020 23:10:32 +0800</pubDate>
       
-      <guid>ncoleman.gtihub.io/posts/starting-out/</guid>
+      <guid>https://www.nickcoleman.org/posts/starting-out/</guid>
       <description>This is a new blog using the Hugo static website generator. It&amp;rsquo;s written in Go, which I don&amp;rsquo;t know, but it seems pretty easy to use without having to know the ins-and-outs of Go.
 Let&amp;rsquo;s go (&amp;lt;ahem&amp;gt;).
 Test highlighting with some code examples:
