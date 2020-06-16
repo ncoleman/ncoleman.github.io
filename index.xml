@@ -1,14 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nick Coleman</title>
-    <link>https://ncoleman.github.io/</link>
+    <link>ncoleman.gtihub.io/</link>
     <description>Recent content on Nick Coleman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://ncoleman.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="ncoleman.gtihub.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title></title>
+      <link>ncoleman.gtihub.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>ncoleman.gtihub.io/about/</guid>
+      <description>Currently, motorcycles. Particularly my R1250 GSA. Vroom, vroom.
+Next, aviation. Gliders.
+Past, astronomy. 8-inch Dobsonian.</description>
+    </item>
     
   </channel>
 </rss>
