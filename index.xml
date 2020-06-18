@@ -6,10 +6,30 @@
     <description>Recent content on Nick Coleman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Jun 2020 23:10:32 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://www.nickcoleman.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Blog Setup Complete</title>
+      <link>https://www.nickcoleman.org/posts/blog-setup-completed/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.nickcoleman.org/posts/blog-setup-completed/</guid>
+      <description>The blog setup using zola is pretty much complete. The only thing left is a commenting system, but in the meantime, while I&amp;rsquo;m sorting that out, readers can get in touch via Contact Me.
+After that there is just some tidying up and aesthetic niceties. I would like to get the About and the Contact Me pages off the front page &amp;ndash; they&amp;rsquo;re accessible from the menu bar at the top anyway.</description>
+    </item>
+    
+    <item>
+      <title>The Second Post</title>
+      <link>https://www.nickcoleman.org/posts/second-post/</link>
+      <pubDate>Wed, 17 Jun 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.nickcoleman.org/posts/second-post/</guid>
+      <description>My second post, to test length formatting and the summary.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu feugiat sapien. Aenean ligula nunc, laoreet id sem in, interdum bibendum felis. Donec vel dui neque. Praesent ac sem ut justo volutpat rutrum a imperdiet tellus. Nam lobortis massa non hendrerit hendrerit. Vivamus porttitor dignissim turpis, eget aliquam urna tincidunt non. Aliquam et fringilla turpis. Nullam eros est, eleifend in ornare sed, hendrerit eget est.</description>
+    </item>
     
     <item>
       <title>Starting Out</title>
