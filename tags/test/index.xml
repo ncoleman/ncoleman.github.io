@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Nick Coleman</title>
-    <link>https://www.nickcoleman.org/posts/</link>
-    <description>Recent content in Posts on Nick Coleman</description>
+    <title>test on Nick Coleman</title>
+    <link>https://www.nickcoleman.org/tags/test/</link>
+    <description>Recent content in test on Nick Coleman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 18 Jun 2020 19:00:00 +0800</lastBuildDate>
     
-	<atom:link href="https://www.nickcoleman.org/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.nickcoleman.org/tags/test/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -22,16 +22,6 @@ I spent an entire afternoon working on it with Github, Gitlab and Netlify, but w
     </item>
     
     <item>
-      <title>Blog Setup Complete</title>
-      <link>https://www.nickcoleman.org/posts/blog-setup-completed/</link>
-      <pubDate>Wed, 17 Jun 2020 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.nickcoleman.org/posts/blog-setup-completed/</guid>
-      <description>The blog setup using zola is pretty much complete. The only thing left is a commenting system, but in the meantime, while I&amp;rsquo;m sorting that out, readers can get in touch via Contact Me.
-After that there is just some tidying up and aesthetic niceties. I would like to get the About and the Contact Me pages off the front page &amp;ndash; they&amp;rsquo;re accessible from the menu bar at the top anyway.</description>
-    </item>
-    
-    <item>
       <title>The Second Post</title>
       <link>https://www.nickcoleman.org/posts/second-post/</link>
       <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
@@ -39,18 +29,6 @@ After that there is just some tidying up and aesthetic niceties. I would like to
       <guid>https://www.nickcoleman.org/posts/second-post/</guid>
       <description>My second post, to test length formatting and the summary.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu feugiat sapien. Aenean ligula nunc, laoreet id sem in, interdum bibendum felis. Donec vel dui neque. Praesent ac sem ut justo volutpat rutrum a imperdiet tellus. Nam lobortis massa non hendrerit hendrerit. Vivamus porttitor dignissim turpis, eget aliquam urna tincidunt non. Aliquam et fringilla turpis. Nullam eros est, eleifend in ornare sed, hendrerit eget est.</description>
-    </item>
-    
-    <item>
-      <title>Starting Out</title>
-      <link>https://www.nickcoleman.org/posts/starting-out/</link>
-      <pubDate>Sun, 14 Jun 2020 23:10:32 +0800</pubDate>
-      
-      <guid>https://www.nickcoleman.org/posts/starting-out/</guid>
-      <description>This is a new blog using the Hugo static website generator. It&amp;rsquo;s written in Go, which I don&amp;rsquo;t know, but it seems pretty easy to use without having to know the ins-and-outs of Go.
-Let&amp;rsquo;s go (&amp;lt;ahem&amp;gt;).
-Test highlighting with some code examples:
-Bash if i &amp;lt; 10; then i = 10 fi Looks good. Had to change the markdown from two tabs to eight spaces for i = 10 though, otherwise the indentation wasn&amp;rsquo;t recognised.</description>
     </item>
     
   </channel>

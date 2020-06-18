@@ -6,9 +6,28 @@
     <description>Recent content in Tags on Nick Coleman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 18 Jun 2020 19:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://www.nickcoleman.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>blog</title>
+      <link>https://www.nickcoleman.org/tags/blog/</link>
+      <pubDate>Thu, 18 Jun 2020 19:00:00 +0800</pubDate>
+      
+      <guid>https://www.nickcoleman.org/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.nickcoleman.org/tags/test/</link>
+      <pubDate>Thu, 18 Jun 2020 19:00:00 +0800</pubDate>
+      
+      <guid>https://www.nickcoleman.org/tags/test/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
