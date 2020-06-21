@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blog on Nick Coleman</title>
@@ -5,9 +6,10 @@
     <description>Recent content in blog on Nick Coleman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <copyright>Copyright ©2020 Nick Coleman</copyright>
     <lastBuildDate>Thu, 18 Jun 2020 19:00:00 +0800</lastBuildDate>
     
-        <atom:link href="https://www.nickcoleman.org/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.nickcoleman.org/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
