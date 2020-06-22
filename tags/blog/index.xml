@@ -37,8 +37,20 @@ After that there is just some tidying up and aesthetic niceties. I would like to
       <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.nickcoleman.org/2020/second-post/</guid>
-      <description>My second post, to test length formatting and the summary.
+      <description>My second post, to test length formatting, mixing markdown and HTML, and the summary.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu feugiat sapien. Aenean ligula nunc, laoreet id sem in, interdum bibendum felis. Donec vel dui neque. Praesent ac sem ut justo volutpat rutrum a imperdiet tellus. Nam lobortis massa non hendrerit hendrerit. Vivamus porttitor dignissim turpis, eget aliquam urna tincidunt non. Aliquam et fringilla turpis. Nullam eros est, eleifend in ornare sed, hendrerit eget est.</description>
+    </item>
+    
+    <item>
+      <title>Starting Out</title>
+      <link>https://www.nickcoleman.org/2020/starting-out/</link>
+      <pubDate>Sun, 14 Jun 2020 23:10:32 +0800</pubDate>
+      
+      <guid>https://www.nickcoleman.org/2020/starting-out/</guid>
+      <description>This is a new blog using the Hugo static website generator. It&amp;rsquo;s written in Go, which I don&amp;rsquo;t know, but it seems pretty easy to use without having to know the ins-and-outs of Go.
+Let&amp;rsquo;s go (&amp;lt;ahem&amp;gt;).
+Test highlighting with some code examples:
+Bash if i &amp;lt; 10; then i = 10 fi Looks good. Had to change the markdown from two tabs to eight spaces for i = 10 though, otherwise the indentation wasn&amp;rsquo;t recognised.</description>
     </item>
     
   </channel>

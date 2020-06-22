@@ -6,7 +6,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright ©2020 Nick Coleman</copyright>
-    <lastBuildDate>Thu, 18 Jun 2020 19:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jun 2020 18:43:40 +0800</lastBuildDate>
     
         <atom:link href="https://www.nickcoleman.org/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Posts</title>
       <link>https://www.nickcoleman.org/post/</link>
-      <pubDate>Thu, 18 Jun 2020 19:00:00 +0800</pubDate>
+      <pubDate>Sun, 21 Jun 2020 18:43:40 +0800</pubDate>
       
       <guid>https://www.nickcoleman.org/post/</guid>
       <description></description>
@@ -38,7 +38,7 @@ Plus: science, unix systems, Python, Bash, C, Lisps, MLs</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.nickcoleman.org/contact/</guid>
-      <description>Send me an email  Your email: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;    Your message:&amp;nbsp;     Send  Uses Formspree messaging service
+      <description>Send me an email  Your name: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;    Your email: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;    Your message:&amp;nbsp;     Send  Uses Formspree messaging service
  </description>
     </item>
     
