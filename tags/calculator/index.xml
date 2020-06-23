@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>calculator on Nick Coleman</title>
+    <link>https://www.nickcoleman.org/tags/calculator/</link>
+    <description>Recent content in calculator on Nick Coleman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright ©2020 Nick Coleman</copyright>
+    <lastBuildDate>Mon, 16 Jan 2012 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://www.nickcoleman.org/tags/calculator/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Calcc, A Programmers’ Calculator</title>
+      <link>https://www.nickcoleman.org/2012/calcc-a-programmers-calculator/</link>
+      <pubDate>Mon, 16 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.nickcoleman.org/2012/calcc-a-programmers-calculator/</guid>
+      <description>This is a lost post from my early blogs around 2012, rediscovered and posted here in mid-2020
+I have been looking for a command-line programmers’ calculator for a while. I needed it to do the usual things like base number conversion, bit shifting and masking, and so on.
+I searched for quite a while and couldn’t find anything. Almost all were GUI, which I didn’t want, or were some ridiculous price, which I couldn’t justify being a programmer myself.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2011 on Nick Coleman</title>
+    <link>https://www.nickcoleman.org/archives/2011/</link>
+    <description>Recent content in 2011 on Nick Coleman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright ©2020 Nick Coleman</copyright>
+    <lastBuildDate>Wed, 28 Dec 2011 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://www.nickcoleman.org/archives/2011/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rails Tutorial</title>
+      <link>https://www.nickcoleman.org/2011/rails-tutorial/</link>
+      <pubDate>Wed, 28 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.nickcoleman.org/2011/rails-tutorial/</guid>
+      <description>This is a lost post from my early blogs around 2012, rediscovered and posted here in mid-2020
+Spent the last day or two doing Michael Hartl’s excellent Ruby on Rails tutorial.
+I had a vague idea I wanted to learn Ruby, but once I googled for tutorials it became pretty clear that Rails was the way to go for web-based apps. Michael’s tutorial got lots of recommendations, so I jumped right in.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vi on Nick Coleman</title>
+    <link>https://www.nickcoleman.org/tags/vi/</link>
+    <description>Recent content in vi on Nick Coleman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright ©2020 Nick Coleman</copyright>
+    <lastBuildDate>Fri, 06 Jan 2012 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://www.nickcoleman.org/tags/vi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Vi Developed for Slow 300 baud Connections</title>
+      <link>https://www.nickcoleman.org/2012/vi-developed-for-slow-300-baud-connections/</link>
+      <pubDate>Fri, 06 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.nickcoleman.org/2012/vi-developed-for-slow-300-baud-connections/</guid>
+      <description>This is a lost post from my early blogs around 2012, rediscovered and posted here in mid-2020
+Interesting discussion on Hacker News about an interview with Bill Joy, creator of Vi.
+Joy mentions that one of the most important use cases was that, in those days, everyone had only a 300 baud connection to the host. That meant the editor had to be efficient in screen repaints while interacting with commands from the user.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cricket on Nick Coleman</title>
+    <link>https://www.nickcoleman.org/tags/cricket/</link>
+    <description>Recent content in cricket on Nick Coleman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright ©2020 Nick Coleman</copyright>
+    <lastBuildDate>Thu, 05 Jan 2012 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://www.nickcoleman.org/tags/cricket/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Highest Australian Scores in Test Cricket</title>
+      <link>https://www.nickcoleman.org/2012/highest-australian-scores-in-test-cricket/</link>
+      <pubDate>Thu, 05 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.nickcoleman.org/2012/highest-australian-scores-in-test-cricket/</guid>
+      <description>This is a lost post from my early blogs around 2012, rediscovered and posted here in mid-2020
+With India playing Australia at Sydney right now, and captain Michael Clarke on 325, I thought it would be interesting to look at the top ten Australian scores of all time (which Channel Nine has conveniently provided for us viewers). Matthew Hayden is highest at 380, then Don Bradman at 334 (Leeds in 1930).</description>
+    </item>
+    
+  </channel>
+</rss>

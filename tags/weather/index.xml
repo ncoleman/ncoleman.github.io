@@ -1,0 +1,28 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>weather on Nick Coleman</title>
+    <link>https://www.nickcoleman.org/tags/weather/</link>
+    <description>Recent content in weather on Nick Coleman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright ©2020 Nick Coleman</copyright>
+    <lastBuildDate>Thu, 26 Jan 2012 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://www.nickcoleman.org/tags/weather/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hot Hot Hot</title>
+      <link>https://www.nickcoleman.org/2012/hot-hot-hot/</link>
+      <pubDate>Thu, 26 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.nickcoleman.org/2012/hot-hot-hot/</guid>
+      <description>This is a lost post from my early blogs around 2012, rediscovered and posted here in mid-2020
+[/img/status_bar_temp.jpg]
+Hot, hot, hot. The weather has been unbelievably hot for the last few days, with the same forecast for the next week.
+Above is a screenshot from part of my status bar, showing 42°C (107°F), on Australia Day, 26th January 2012, at 3:00pm.
+It shows the current temperature, “feels like” temperature, humidity, and wind direction and speed with gusts.</description>
+    </item>
+    
+  </channel>
+</rss>
