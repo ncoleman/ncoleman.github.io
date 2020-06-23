@@ -18,7 +18,7 @@
       
       <guid>https://www.nickcoleman.org/search/</guid>
       <description>Search engine is coming. In the meantime, search here using either Google or DuckDuckGo.
- opens in overlay, restricted to this site.    opens in new window  </description>
+ opens in overlay    opens in new window  </description>
     </item>
     
     <item>
@@ -61,7 +61,7 @@ Plus:
       <guid>https://www.nickcoleman.org/privacy/</guid>
       <description>This is a personal blog. I don&amp;rsquo;t harvest or sell any information to anyone. I don&amp;rsquo;t use cookies.
 I do use Google and DuckDuckGo as search engines, and Formspree to manage the messaging form on my Contact Me page.
-I may end up using Google Analytics to see which posts are popular and to monitor total views purely for curiosity&amp;rsquo;s sake.</description>
+I may end up using Google Analytics to see which posts are popular and to monitor total views for curiosity&amp;rsquo;s sake. At the moment (2020), I don&amp;rsquo;t.</description>
     </item>
     
   </channel>
