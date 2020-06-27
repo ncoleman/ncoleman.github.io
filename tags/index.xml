@@ -6,10 +6,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright ©2020 Nick Coleman</copyright>
-    <lastBuildDate>Sun, 21 Jun 2020 18:43:40 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2020 13:00:00 +0800</lastBuildDate>
     
         <atom:link href="https://www.nickcoleman.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>blog</title>
+      <link>https://www.nickcoleman.org/tags/blog/</link>
+      <pubDate>Sat, 27 Jun 2020 13:00:00 +0800</pubDate>
+      
+      <guid>https://www.nickcoleman.org/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>commento</title>
+      <link>https://www.nickcoleman.org/tags/commento/</link>
+      <pubDate>Sat, 27 Jun 2020 13:00:00 +0800</pubDate>
+      
+      <guid>https://www.nickcoleman.org/tags/commento/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>isso</title>
+      <link>https://www.nickcoleman.org/tags/isso/</link>
+      <pubDate>Sat, 27 Jun 2020 13:00:00 +0800</pubDate>
+      
+      <guid>https://www.nickcoleman.org/tags/isso/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>motorcycling</title>
@@ -17,24 +44,6 @@
       <pubDate>Sun, 21 Jun 2020 18:43:40 +0800</pubDate>
       
       <guid>https://www.nickcoleman.org/tags/motorcycling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blog</title>
-      <link>https://www.nickcoleman.org/tags/blog/</link>
-      <pubDate>Thu, 18 Jun 2020 19:00:00 +0800</pubDate>
-      
-      <guid>https://www.nickcoleman.org/tags/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>test</title>
-      <link>https://www.nickcoleman.org/tags/test/</link>
-      <pubDate>Thu, 18 Jun 2020 19:00:00 +0800</pubDate>
-      
-      <guid>https://www.nickcoleman.org/tags/test/</guid>
       <description></description>
     </item>
     

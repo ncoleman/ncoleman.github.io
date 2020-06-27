@@ -55,12 +55,28 @@
                 <article class="media">
                     <div class="media-content">
                         <div class="content">
-                            <p class="title is-4"><a href="https://www.nickcoleman.org/2020/not-complete/">Blog Setup Not Complete</a></p>
+                            <p class="title is-4"><a href="https://www.nickcoleman.org/2020/blog-setup-completed-finally/">Blog Setup Completed Finally</a></p>
+                            <p class="subtitle is-size-6 has-text-grey-light">
+                                Published at June 27, 2020 &middot;
+                                <i class="far fa-clock"></i>&nbsp;2 min read
+                            </p>
+                            <p>The only thing left with the blog was to add a commenting system. Hugo&rsquo;s default is Disqus, but I didn&rsquo;t want that for the usual reasons of lack-of-privacy and bloat. After searching around, I looked at isso and commento.
+Commento needs Postgres whereas isso uses the much lighter SQLite. Since I get only a few comments, it&rsquo;s isso first up.
+The first obstacle is that the pip install fails immediately with...</p>
+                        </div>
+                    </div>
+                </article>
+                <br>
+
+                <article class="media">
+                    <div class="media-content">
+                        <div class="content">
+                            <p class="title is-4"><a href="https://www.nickcoleman.org/2020/blog-setup-not-complete/">Blog Setup Not Complete</a></p>
                             <p class="subtitle is-size-6 has-text-grey-light">
                                 Published at June 18, 2020 &middot;
                                 <i class="far fa-clock"></i>&nbsp;1 min read
                             </p>
-                            <p>Setup is not complete, it turns out. I had been using the preview server to view my changes and everything looked fine as in my last post. But when I went to deploy the content over to the live server, I could not get the deployment to work. Most of the styling was missing and the site looked like a terribly brutal minimalist site.
+                            <p>Setup is not complete, it turns out. I had been using the preview server to view my changes and everything looked fine as in my last post. But when I went to deploy the content over to the live server, I could not get the deployment to work. Most of the styling was missing and the site looked like a brutal minimalist site[1].
 I spent an entire afternoon working on it with Github, Gitlab and Netlify, but with no success....</p>
                         </div>
                     </div>
@@ -75,23 +91,8 @@ I spent an entire afternoon working on it with Github, Gitlab and Netlify, but w
                                 Published at June 17, 2020 &middot;
                                 <i class="far fa-clock"></i>&nbsp;1 min read
                             </p>
-                            <p>The blog setup using zola is pretty much complete. The only thing left is a commenting system, but in the meantime, while I&rsquo;m sorting that out, readers can get in touch via Contact Me.
-After that there is just some tidying up and aesthetic niceties. I would like to get the About and the Contact Me pages off the front page &ndash; they&rsquo;re accessible from the menu bar at the top anyway....</p>
-                        </div>
-                    </div>
-                </article>
-                <br>
-
-                <article class="media">
-                    <div class="media-content">
-                        <div class="content">
-                            <p class="title is-4"><a href="https://www.nickcoleman.org/2020/second-post/">The Second Post</a></p>
-                            <p class="subtitle is-size-6 has-text-grey-light">
-                                Published at June 17, 2020 &middot;
-                                <i class="far fa-clock"></i>&nbsp;3 min read
-                            </p>
-                            <p>My second post, to test length formatting, mixing markdown and HTML, and the summary.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu feugiat sapien. Aenean ligula nunc, laoreet id sem in, interdum bibendum felis. Donec vel dui neque. Praesent ac sem ut justo volutpat rutrum a imperdiet tellus. Nam lobortis massa non hendrerit hendrerit. Vivamus porttitor dignissim turpis, eget aliquam urna tincidunt non. Aliquam et fringilla turpis. Nullam eros est, eleifend in ornare sed, hendrerit eget est....</p>
+                            <p>I switched to the zola static site generator from hugo. Hugo&rsquo;s theming seems complex and I couldn&rsquo;t find a theme I liked, whereas I found one with zola almost immediately.
+The blog setup using zola is pretty much complete. I&rsquo;ve done an About, Contact Me and Search pages. The only thing left to do is a commenting system, but in the meantime, while I&rsquo;m sorting that out, readers can get in touch via Contact Me....</p>
                         </div>
                     </div>
                 </article>
@@ -105,10 +106,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu feugiat sapien.
                                 Published at June 14, 2020 &middot;
                                 <i class="far fa-clock"></i>&nbsp;1 min read
                             </p>
-                            <p>This is a new blog using the Hugo static website generator. It&rsquo;s written in Go, which I don&rsquo;t know, but it seems pretty easy to use without having to know the ins-and-outs of Go.
-Let&rsquo;s go (&lt;ahem&gt;).
+                            <p>I&rsquo;ve started blogging after a six year break.
+This is a new blog using the Hugo static website generator written in Go. It&rsquo;s super fast at creating the site, less than 1 second.
+Let&rsquo;s go &lt;ahem&gt;. Here&rsquo;s some dummy content to test things out.
 Test highlighting with some code examples:
-Bash if i &lt; 10; then i = 10 fi Looks good. Had to change the markdown from two tabs to eight spaces for i = 10 though, otherwise the indentation wasn&rsquo;t recognised....</p>
+Bash if i &lt; 10; then i = 10 fi Looks good apart from the closing fi. I had to change the markdown from two tabs to eight spaces for i = 10 though, otherwise the indentation wasn&rsquo;t recognised as markdown....</p>
                         </div>
                     </div>
                 </article>
@@ -127,11 +129,15 @@ Bash if i &lt; 10; then i = 10 fi Looks good. Had to change the markdown from tw
         
             <span class="tag"><a href="https://www.nickcoleman.org/tags/calculator">calculator</a></span>
         
+            <span class="tag"><a href="https://www.nickcoleman.org/tags/commento">commento</a></span>
+        
             <span class="tag"><a href="https://www.nickcoleman.org/tags/cricket">cricket</a></span>
         
             <span class="tag"><a href="https://www.nickcoleman.org/tags/ghostery">ghostery</a></span>
         
             <span class="tag"><a href="https://www.nickcoleman.org/tags/governor">governor</a></span>
+        
+            <span class="tag"><a href="https://www.nickcoleman.org/tags/isso">isso</a></span>
         
             <span class="tag"><a href="https://www.nickcoleman.org/tags/linux">linux</a></span>
         
@@ -149,8 +155,6 @@ Bash if i &lt; 10; then i = 10 fi Looks good. Had to change the markdown from tw
         
             <span class="tag"><a href="https://www.nickcoleman.org/tags/tcpdump">tcpdump</a></span>
         
-            <span class="tag"><a href="https://www.nickcoleman.org/tags/test">test</a></span>
-        
             <span class="tag"><a href="https://www.nickcoleman.org/tags/vi">vi</a></span>
         
             <span class="tag"><a href="https://www.nickcoleman.org/tags/vim">vim</a></span>
@@ -166,16 +170,16 @@ Bash if i &lt; 10; then i = 10 fi Looks good. Had to change the markdown from tw
     <div class="card-content">
         <h1 class="title is-5">Recent posts</h1>
         
+            <h1><a href="https://www.nickcoleman.org/2020/blog-setup-completed-finally/">Blog Setup Completed Finally</a></h1>
+            <time class="has-text-grey-light is-size-7">27 June 2020</time>
+        
             <h1><a href="https://www.nickcoleman.org/2020/a-good-day-out/">A Good Day Out</a></h1>
             <time class="has-text-grey-light is-size-7">21 June 2020</time>
         
-            <h1><a href="https://www.nickcoleman.org/2020/not-complete/">Blog Setup Not Complete</a></h1>
+            <h1><a href="https://www.nickcoleman.org/2020/blog-setup-not-complete/">Blog Setup Not Complete</a></h1>
             <time class="has-text-grey-light is-size-7">18 June 2020</time>
         
             <h1><a href="https://www.nickcoleman.org/2020/blog-setup-completed/">Blog Setup Complete</a></h1>
-            <time class="has-text-grey-light is-size-7">17 June 2020</time>
-        
-            <h1><a href="https://www.nickcoleman.org/2020/second-post/">The Second Post</a></h1>
             <time class="has-text-grey-light is-size-7">17 June 2020</time>
         
             <h1><a href="https://www.nickcoleman.org/2020/starting-out/">Starting Out</a></h1>

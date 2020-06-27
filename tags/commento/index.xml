@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>commento on Nick Coleman</title>
+    <link>https://www.nickcoleman.org/tags/commento/</link>
+    <description>Recent content in commento on Nick Coleman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright ©2020 Nick Coleman</copyright>
+    <lastBuildDate>Sat, 27 Jun 2020 13:00:00 +0800</lastBuildDate>
+    
+        <atom:link href="https://www.nickcoleman.org/tags/commento/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog Setup Completed Finally</title>
+      <link>https://www.nickcoleman.org/2020/blog-setup-completed-finally/</link>
+      <pubDate>Sat, 27 Jun 2020 13:00:00 +0800</pubDate>
+      
+      <guid>https://www.nickcoleman.org/2020/blog-setup-completed-finally/</guid>
+      <description>The only thing left with the blog was to add a commenting system. Hugo&amp;rsquo;s default is Disqus, but I didn&amp;rsquo;t want that for the usual reasons of lack-of-privacy and bloat. After searching around, I looked at isso and commento.
+Commento needs Postgres whereas isso uses the much lighter SQLite. Since I get only a few comments, it&amp;rsquo;s isso first up.
+The first obstacle is that the pip install fails immediately with</description>
+    </item>
+    
+  </channel>
+</rss>

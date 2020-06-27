@@ -56,22 +56,20 @@
 	    
         <div class="tile is-child box">
             <div class="content">
-                <p>This is a new blog using the Hugo static website generator.  It&rsquo;s written in Go, which I don&rsquo;t know, but
-it seems pretty easy to use without having to know the ins-and-outs of Go.</p>
-<p>Let&rsquo;s go (&lt;ahem&gt;).</p>
+                <p><em>I&rsquo;ve started blogging after a six year break.</em></p>
+<p>This is a new blog using the Hugo static website generator written in Go.  It&rsquo;s super fast at creating the site, less than 1 second.</p>
+<p>Let&rsquo;s go &lt;ahem&gt;.  Here&rsquo;s some dummy content to test things out.</p>
 <p>Test highlighting with some code examples:</p>
-<h4 id="bash">Bash</h4>
+<h5 id="bash">Bash</h5>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-perl" data-lang="perl"><span style="color:#66d9ef">if</span> i <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">10</span>; <span style="color:#66d9ef">then</span>
     i <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>
 fi
-</code></pre></div><p>Looks good.  Had to change the markdown from two tabs to eight spaces for <code>i = 10</code> though,
-otherwise the indentation wasn&rsquo;t recognised.
-[later] I changed from using indentation to establish a code block to using three backticks <code>```</code> to mark out the block.
-I now don&rsquo;t have to worry about indentation meaning something under markdown instead of
-being part of the code.</p>
-<h4 id="python">Python</h4>
+</code></pre></div><p>Looks good apart from the closing <code>fi</code>.  I had to change the markdown from two tabs to eight spaces for <code>i = 10</code> though, otherwise the indentation wasn&rsquo;t recognised as markdown.
+[later] I changed from using indentation to establish a code block to using three backticks <code>```</code> to mark out the block. I now don&rsquo;t have to worry about indentation meaning something under markdown instead of being part of the code.</p>
+<h5 id="python">Python</h5>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">i <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span> <span style="color:#66d9ef">if</span> i <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">10</span>
 </code></pre></div><p>Looks ok.</p>
+<p>So that&rsquo;s in-line code and code blocks tested along with some formatting. Now to add comments, search, and a contact page.</p>
 
             </div>
 	    <hr/>
@@ -93,11 +91,15 @@ being part of the code.</p>
         
             <span class="tag"><a href="https://www.nickcoleman.org/tags/calculator">calculator</a></span>
         
+            <span class="tag"><a href="https://www.nickcoleman.org/tags/commento">commento</a></span>
+        
             <span class="tag"><a href="https://www.nickcoleman.org/tags/cricket">cricket</a></span>
         
             <span class="tag"><a href="https://www.nickcoleman.org/tags/ghostery">ghostery</a></span>
         
             <span class="tag"><a href="https://www.nickcoleman.org/tags/governor">governor</a></span>
+        
+            <span class="tag"><a href="https://www.nickcoleman.org/tags/isso">isso</a></span>
         
             <span class="tag"><a href="https://www.nickcoleman.org/tags/linux">linux</a></span>
         
@@ -115,8 +117,6 @@ being part of the code.</p>
         
             <span class="tag"><a href="https://www.nickcoleman.org/tags/tcpdump">tcpdump</a></span>
         
-            <span class="tag"><a href="https://www.nickcoleman.org/tags/test">test</a></span>
-        
             <span class="tag"><a href="https://www.nickcoleman.org/tags/vi">vi</a></span>
         
             <span class="tag"><a href="https://www.nickcoleman.org/tags/vim">vim</a></span>
@@ -132,16 +132,16 @@ being part of the code.</p>
     <div class="card-content">
         <h1 class="title is-5">Recent posts</h1>
         
+            <h1><a href="https://www.nickcoleman.org/2020/blog-setup-completed-finally/">Blog Setup Completed Finally</a></h1>
+            <time class="has-text-grey-light is-size-7">27 June 2020</time>
+        
             <h1><a href="https://www.nickcoleman.org/2020/a-good-day-out/">A Good Day Out</a></h1>
             <time class="has-text-grey-light is-size-7">21 June 2020</time>
         
-            <h1><a href="https://www.nickcoleman.org/2020/not-complete/">Blog Setup Not Complete</a></h1>
+            <h1><a href="https://www.nickcoleman.org/2020/blog-setup-not-complete/">Blog Setup Not Complete</a></h1>
             <time class="has-text-grey-light is-size-7">18 June 2020</time>
         
             <h1><a href="https://www.nickcoleman.org/2020/blog-setup-completed/">Blog Setup Complete</a></h1>
-            <time class="has-text-grey-light is-size-7">17 June 2020</time>
-        
-            <h1><a href="https://www.nickcoleman.org/2020/second-post/">The Second Post</a></h1>
             <time class="has-text-grey-light is-size-7">17 June 2020</time>
         
             <h1><a href="https://www.nickcoleman.org/2020/starting-out/">Starting Out</a></h1>
@@ -160,13 +160,13 @@ being part of the code.</p>
         <h1 class="title is-5">Related posts</h1>
       
       
-            <h1><a href="https://www.nickcoleman.org/2020/not-complete/">Blog Setup Not Complete</a></h1>
+            <h1><a href="https://www.nickcoleman.org/2020/blog-setup-completed-finally/">Blog Setup Completed Finally</a></h1>
+            <time class="has-text-grey-light is-size-7">27 June 2020</time>
+      
+            <h1><a href="https://www.nickcoleman.org/2020/blog-setup-not-complete/">Blog Setup Not Complete</a></h1>
             <time class="has-text-grey-light is-size-7">18 June 2020</time>
       
             <h1><a href="https://www.nickcoleman.org/2020/blog-setup-completed/">Blog Setup Complete</a></h1>
-            <time class="has-text-grey-light is-size-7">17 June 2020</time>
-      
-            <h1><a href="https://www.nickcoleman.org/2020/second-post/">The Second Post</a></h1>
             <time class="has-text-grey-light is-size-7">17 June 2020</time>
       
     </div>
