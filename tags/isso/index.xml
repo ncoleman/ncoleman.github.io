@@ -19,7 +19,7 @@
       <guid>https://www.nickcoleman.org/2020/blog-setup-completed-finally/</guid>
       <description>The only thing left with the blog was to add a commenting system. Hugo&amp;rsquo;s default is Disqus, but I didn&amp;rsquo;t want that for the usual reasons of lack-of-privacy and bloat. After searching around, I looked at isso and commento.
 Commento needs Postgres whereas isso uses the much lighter SQLite. Since I get only a few comments, it&amp;rsquo;s isso first up.
-The first obstacle is that the pip install fails immediately with</description>
+The first obstacle is that the pip install succeeds, but isso run fails immediately with</description>
     </item>
     
   </channel>

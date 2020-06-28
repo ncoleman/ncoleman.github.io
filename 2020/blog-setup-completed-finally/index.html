@@ -58,22 +58,23 @@
             <div class="content">
                 <p>The only thing left with the blog was to add a commenting system. Hugo&rsquo;s default is Disqus, but I didn&rsquo;t want that for the usual reasons of lack-of-privacy and bloat.  After searching around, I looked at isso and commento.</p>
 <p><a href="http://commento.io">Commento</a> needs Postgres whereas <a href="http://posativ.org/isso">isso</a> uses the much lighter SQLite. Since I get only a few comments, it&rsquo;s isso first up.</p>
-<p>The first obstacle is that the pip install fails immediately with</p>
-<pre><code>from werkzeug.wsgi import SharedDataMiddleware
-ImportError: cannot import name 'SharedDataMiddleware'
-</code></pre><p>Let&rsquo;s try the github version.  Clone and run <code>install develop</code>.</p>
-<pre><code>error: The 'Flask' distribution was not found and is required by flask-caching
-</code></pre><p>Ok, install flask.  Why wasn&rsquo;t this taken care of automatically?</p>
-<pre><code>ERROR: Package 'itsdangerous' requires a different Python: 3.5.3 not in '&gt;=3.6'
-</code></pre><p>Well, that&rsquo;s just peachy. I&rsquo;m not going to install Python 3.6 on the off-chance it will solve the problem, that&rsquo;s jumping down the rabbit-hole. (For what it&rsquo;s worth, I did try the install version, but got a syntax error<sup>[1]</sup> during the build!  Not super confidence-inspiring hence deciding to avoid the rabbit hole.)</p>
+<p>The first obstacle is that the pip install succeeds, but <code>isso run</code> fails immediately with</p>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">from werkzeug.wsgi import SharedDataMiddleware
+ImportError: cannot import name &#39;SharedDataMiddleware&#39;
+</code></pre></div><p>Why does pip have a version that doesn&rsquo;t run?</p>
+<p>Let&rsquo;s try the github version.  Clone and run <code>setup.py develop</code>.</p>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">error: The &#39;Flask&#39; distribution was not found and is required by flask-caching
+</code></pre></div><p>Ok, install flask.  Why wasn&rsquo;t this taken care of automatically?</p>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">ERROR: Package &#39;itsdangerous&#39; requires a different Python: 3.5.3 not in &#39;&gt;=3.6&#39;
+</code></pre></div><p>Well, that&rsquo;s just peachy. I&rsquo;m not going to install Python 3.6 on the off-chance it will solve the problem, that&rsquo;s jumping down the rabbit-hole. (For what it&rsquo;s worth, I did try the install version, but got a syntax error<sup>[1]</sup> during the build!  Not super confidence-inspiring hence deciding to avoid the rabbit hole.)</p>
 <p>Enough jumping through hoops.  The VPS that is running this commenting engine is empty, so running postgres shouldn&rsquo;t be an issue for it.  Let&rsquo;s try commento!</p>
-<p>I ran through <a href="https://medium.com/@thatgurjot/how-to-set-up-commento-from-scratch-2f1fb8e87b4">this fairly involved setup</a> and it worked.  Straight up.  Simple as that.</p>
+<p>I ran through <a href="https://medium.com/@thatgurjot/how-to-set-up-commento-from-scratch-2f1fb8e87b4">this mildly involved setup</a> and it worked.  Straight up.  Simple as that.</p>
 <hr>
 [1]
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">File <span style="color:#b44">&#34;/tmp/easy_install-0mv11wgy/MarkupSafe-2.0.0a1/src/markupsafe/__init__.py&#34;</span>, line <span style="color:#666">83</span>
-    <span style="color:#a2f;font-weight:bold">return</span> f<span style="color:#b44">&#34;{self.__class__.__name__}({super().__repr__()})&#34;</span>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">File <span style="color:#4070a0">&#34;/tmp/easy_install-0mv11wgy/MarkupSafe-2.0.0a1/src/markupsafe/__init__.py&#34;</span>, line <span style="color:#40a070">83</span>
+    <span style="color:#007020;font-weight:bold">return</span> f<span style="color:#4070a0">&#34;{self.__class__.__name__}({super().__repr__()})&#34;</span>
                                                             <span style="color:#666">^</span>
-<span style="color:#d2413a;font-weight:bold">SyntaxError</span>: invalid syntax
+<span style="color:#007020">SyntaxError</span>: invalid syntax
 </code></pre></div>
             </div>
 	    <hr/>
