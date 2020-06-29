@@ -66,9 +66,9 @@ ImportError: cannot import name &#39;SharedDataMiddleware&#39;
 <div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">error: The &#39;Flask&#39; distribution was not found and is required by flask-caching
 </code></pre></div><p>Ok, install flask.  Why wasn&rsquo;t this taken care of automatically?</p>
 <div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">ERROR: Package &#39;itsdangerous&#39; requires a different Python: 3.5.3 not in &#39;&gt;=3.6&#39;
-</code></pre></div><p>Well, that&rsquo;s just peachy. I&rsquo;m not going to install Python 3.6 on the off-chance it will solve the problem, that&rsquo;s jumping down the rabbit-hole. (For what it&rsquo;s worth, I did try the install version, but got a syntax error<sup>[1]</sup> during the build!  Not super confidence-inspiring hence deciding to avoid the rabbit hole.)</p>
+</code></pre></div><p>Well, that&rsquo;s just peachy. I&rsquo;m not going to install Python 3.6 on the off-chance it will solve the problem, that&rsquo;s jumping down the rabbit-hole. For what it&rsquo;s worth, I did try the install version, but got a syntax error<sup>[1]</sup> during the build! Then there are <em>150</em> open issues on github, some of them years old.  Not super confidence-inspiring hence deciding to avoid the rabbit hole.</p>
 <p>Enough jumping through hoops.  The VPS that is running this commenting engine is empty, so running postgres shouldn&rsquo;t be an issue for it.  Let&rsquo;s try commento!</p>
-<p>I ran through <a href="https://medium.com/@thatgurjot/how-to-set-up-commento-from-scratch-2f1fb8e87b4">this mildly involved setup</a> and it worked.  Straight up.  Simple as that.</p>
+<p>I ran through <a href="https://medium.com/@thatgurjot/how-to-set-up-commento-from-scratch-2f1fb8e87b4">this mildly involved setup</a> and it worked.  Straight up.  Simple as that.  Leave a comment!</p>
 <hr>
 [1]
 <div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">File <span style="color:#4070a0">&#34;/tmp/easy_install-0mv11wgy/MarkupSafe-2.0.0a1/src/markupsafe/__init__.py&#34;</span>, line <span style="color:#40a070">83</span>
@@ -80,9 +80,13 @@ ImportError: cannot import name &#39;SharedDataMiddleware&#39;
 	    <hr/>
 	    
 	    
-		<script defer src="https://isso.nickcoleman.org/js/commento.js"></script>
-		<div id="commento"></div>
 	    
+		
+		<script data-isso="//isso.nickcoleman.org/"
+			src="//isso.nickcoleman.org/js/embed.min.js"></script>
+
+		<section id="isso-thread"></section>
+	     
 	    
         </div>
     </div>
