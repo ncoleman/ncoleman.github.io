@@ -3,13 +3,14 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Nick Coleman  | Blog Setup Completed Finally</title>
+    <title>Nick Coleman  | asciidoc</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
     <link rel="stylesheet" href="https://www.nickcoleman.org/css/blog.css" />
+    <link rel="alternate" type="application/rss+xml" href="https://www.nickcoleman.org/tags/asciidoc/index.xml" title="Nick Coleman" />
     </head>
 <body>
 
@@ -31,7 +32,7 @@
                 <br>
                 <h1 class="title is-size-1">
                     
-                        Blog Setup Completed Finally
+                        #asciidoc
                     
                 </h1>   
 		
@@ -44,48 +45,33 @@
     <div class="section">
     
 
+
+
 <div class="columns">
     <div class="column is-9">
-	
-	    
-	<h4 class="title is-5">
-	    &middot; 27 June 2020 &middot;</h4>
-	    <div class="is-6">
-		<p class="subtitle is-size-6 has-text-grey">
-		&nbsp;&nbsp;&nbsp;2 min read</p></div><br/>
-	    
         <div class="tile is-child box">
             <div class="content">
-                <p>The only thing left with the blog was to add a commenting system. Hugo&rsquo;s default is Disqus, but I didn&rsquo;t want that for the usual reasons of lack-of-privacy and bloat.  After searching around, I looked at isso and commento.</p>
-<p><a href="http://commento.io">Commento</a> needs Postgres whereas <a href="http://posativ.org/isso">isso</a> uses the much lighter SQLite. Since I get only a few comments, it&rsquo;s isso first up.</p>
-<p>The first obstacle is that the pip install succeeds, but <code>isso run</code> fails immediately with</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">from werkzeug.wsgi import SharedDataMiddleware
-ImportError: cannot import name &#39;SharedDataMiddleware&#39;
-</code></pre></div><p>Why does pip have a version that doesn&rsquo;t run?</p>
-<p>Let&rsquo;s try the github version.  Clone and run <code>setup.py develop</code>.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">error: The &#39;Flask&#39; distribution was not found and is required by flask-caching
-</code></pre></div><p>Ok, install flask.  Why wasn&rsquo;t this taken care of automatically?</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">ERROR: Package &#39;itsdangerous&#39; requires a different Python: 3.5.3 not in &#39;&gt;=3.6&#39;
-</code></pre></div><p>Well, that&rsquo;s just peachy. I&rsquo;m not going to install Python 3.6 on the off-chance it will solve the problem, that&rsquo;s jumping down the rabbit-hole. For what it&rsquo;s worth, I did try the install version, but got a syntax error<sup>[1]</sup> during the build! Then there are <em>150</em> open issues on github, some of them years old.  Not super confidence-inspiring hence deciding to avoid the rabbit hole.</p>
-<p>Enough jumping through hoops.  The VPS that is running this commenting engine is empty, so running postgres shouldn&rsquo;t be an issue for it.  Let&rsquo;s try commento!</p>
-<p>I ran through <a href="https://medium.com/@thatgurjot/how-to-set-up-commento-from-scratch-2f1fb8e87b4">this mildly involved setup</a> and it worked.  Straight up.  Simple as that.  Leave a comment!</p>
-<hr>
-[1]
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">File <span style="color:#e6db74">&#34;/tmp/easy_install-0mv11wgy/MarkupSafe-2.0.0a1/src/markupsafe/__init__.py&#34;</span>, line <span style="color:#ae81ff">83</span>
-    <span style="color:#66d9ef">return</span> f<span style="color:#e6db74">&#34;{self.__class__.__name__}({super().__repr__()})&#34;</span>
-                                                            <span style="color:#f92672">^</span>
-<span style="color:#a6e22e">SyntaxError</span>: invalid syntax
-</code></pre></div>
+
+                <article class="media">
+                    <div class="media-content">
+                        <div class="content">
+                            <p class="title is-4"><a href="https://www.nickcoleman.org/2020/asciidoc-test/">AsciiDoc Test</a></p>
+                            <p class="subtitle is-size-6 has-text-grey-light">
+                                Published at July 2, 2020 &middot;
+                                <i class="far fa-clock"></i>&nbsp;1 min read
+                            </p>
+                            <p>Title Two Title Three Title Four Now is the time for all good men to come to the aid of their party. The quick brown fox jumped over the lazy dog.
+ Rubies are red, Topazes are blue.
+ Rubies are red,
+Topazes are blue.
+ Code highlighting [1]
+ # here is some bash using markdown if [ -x /usr/bin/asciidoctor ] ; then echo Found it! fi   Now using asciidoc formatting [2]...</p>
+                        </div>
+                    </div>
+                </article>
+                <br>
+
             </div>
-	    <hr/>
-	    
-	    
-	    
-		<script defer src="https://isso.nickcoleman.org/js/commento.js"></script>
-		<div id="commento"></div> 
-		
-	     
-	    
         </div>
     </div>
     <div class="column is-3">
@@ -159,30 +145,6 @@ ImportError: cannot import name &#39;SharedDataMiddleware&#39;
     </div>
 </div>
     <br>
-                
-  
-
-
-
-<div class="card">
-    <div class="card-content">
-        <h1 class="title is-5">Related posts</h1>
-      
-      
-            <h1><a href="https://www.nickcoleman.org/2020/blog-setup-not-complete/">Blog Setup Not Complete</a></h1>
-            <time class="has-text-grey-light is-size-7">18 June 2020</time>
-      
-            <h1><a href="https://www.nickcoleman.org/2020/blog-setup-completed/">Blog Setup Complete</a></h1>
-            <time class="has-text-grey-light is-size-7">17 June 2020</time>
-      
-            <h1><a href="https://www.nickcoleman.org/2020/starting-out/">Starting Out</a></h1>
-            <time class="has-text-grey-light is-size-7">14 June 2020</time>
-      
-    </div>
-</div>
-
-    
-<br>
         <div class="card">
     <div class="card-content">
         <h1 class="title is-5">Archives</h1>

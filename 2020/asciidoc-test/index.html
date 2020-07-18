@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Nick Coleman  | Blog Setup Completed Finally</title>
+    <title>Nick Coleman  | AsciiDoc Test</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -31,7 +31,7 @@
                 <br>
                 <h1 class="title is-size-1">
                     
-                        Blog Setup Completed Finally
+                        AsciiDoc Test
                     
                 </h1>   
 		
@@ -49,33 +49,117 @@
 	
 	    
 	<h4 class="title is-5">
-	    &middot; 27 June 2020 &middot;</h4>
+	    &middot; 2 July 2020 &middot;</h4>
 	    <div class="is-6">
 		<p class="subtitle is-size-6 has-text-grey">
-		&nbsp;&nbsp;&nbsp;2 min read</p></div><br/>
+		&nbsp;&nbsp;&nbsp;1 min read</p></div><br/>
 	    
         <div class="tile is-child box">
             <div class="content">
-                <p>The only thing left with the blog was to add a commenting system. Hugo&rsquo;s default is Disqus, but I didn&rsquo;t want that for the usual reasons of lack-of-privacy and bloat.  After searching around, I looked at isso and commento.</p>
-<p><a href="http://commento.io">Commento</a> needs Postgres whereas <a href="http://posativ.org/isso">isso</a> uses the much lighter SQLite. Since I get only a few comments, it&rsquo;s isso first up.</p>
-<p>The first obstacle is that the pip install succeeds, but <code>isso run</code> fails immediately with</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">from werkzeug.wsgi import SharedDataMiddleware
-ImportError: cannot import name &#39;SharedDataMiddleware&#39;
-</code></pre></div><p>Why does pip have a version that doesn&rsquo;t run?</p>
-<p>Let&rsquo;s try the github version.  Clone and run <code>setup.py develop</code>.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">error: The &#39;Flask&#39; distribution was not found and is required by flask-caching
-</code></pre></div><p>Ok, install flask.  Why wasn&rsquo;t this taken care of automatically?</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">ERROR: Package &#39;itsdangerous&#39; requires a different Python: 3.5.3 not in &#39;&gt;=3.6&#39;
-</code></pre></div><p>Well, that&rsquo;s just peachy. I&rsquo;m not going to install Python 3.6 on the off-chance it will solve the problem, that&rsquo;s jumping down the rabbit-hole. For what it&rsquo;s worth, I did try the install version, but got a syntax error<sup>[1]</sup> during the build! Then there are <em>150</em> open issues on github, some of them years old.  Not super confidence-inspiring hence deciding to avoid the rabbit hole.</p>
-<p>Enough jumping through hoops.  The VPS that is running this commenting engine is empty, so running postgres shouldn&rsquo;t be an issue for it.  Let&rsquo;s try commento!</p>
-<p>I ran through <a href="https://medium.com/@thatgurjot/how-to-set-up-commento-from-scratch-2f1fb8e87b4">this mildly involved setup</a> and it worked.  Straight up.  Simple as that.  Leave a comment!</p>
+                <div class="sect1">
+<h2 id="_title_two">Title Two</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_title_three">Title Three</h3>
+<div class="sect3">
+<h4 id="_title_four">Title Four</h4>
+<div class="paragraph">
+<p>Now is <em>the</em> time for all <strong>good</strong> men to come to the aid of their party.  The quick brown fox jumped over the <code>lazy</code> dog.</p>
+</div>
+<div class="paragraph">
+<p>Rubies are red,
+Topazes are blue.</p>
+</div>
+<div class="paragraph">
+<p>Rubies are red,<br>
+Topazes are blue.</p>
+</div>
+<div class="paragraph">
+<p>Code highlighting <sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight" style="background-color: #f8f8f8"><code data-lang="sh"><span style="color: #999988;font-style: italic"># here is some bash using markdown</span>
+<span style="color: #000000;font-weight: bold">if</span> <span style="color: #000000;font-weight: bold">[</span> <span style="color: #000080">-x</span> /usr/bin/asciidoctor <span style="color: #000000;font-weight: bold">]</span> <span style="background-color: #f8f8f8">;</span> <span style="color: #000000;font-weight: bold">then
+    </span><span style="color: #0086B3">echo </span>Found it!
+<span style="color: #000000;font-weight: bold">fi</span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Now using asciidoc formatting <sup class="footnote">[<a id="_footnoteref_2" class="footnote" href="#_footnotedef_2" title="View footnote.">2</a>]</sup></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight" style="background-color: #f8f8f8"><code data-lang="sh"><span style="color: #999988;font-style: italic"># here is some bash using asciidoc</span>
+<span style="color: #000000;font-weight: bold">if</span> <span style="color: #000000;font-weight: bold">[</span> <span style="color: #000080">-x</span> /usr/bin/asciidoctor <span style="color: #000000;font-weight: bold">]</span> <span style="background-color: #f8f8f8">;</span> <span style="color: #000000;font-weight: bold">then
+    </span><span style="color: #0086B3">echo </span>Found it!
+<span style="color: #000000;font-weight: bold">fi</span></code></pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>$ gem install asciidoctor</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>$ gem install pygments.rb</pre>
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>Quoted text.</p>
+</div>
+<div class="paragraph">
+<p>Another paragraph in quote.</p>
+</div>
+</blockquote>
+</div>
+<div class="paragraph">
+<p>The &#8217;90s popularised a new form of <strong>m</strong>usic known as &#8220;grunge&#8221; rock.  It&#8217;s influence extended well beyond music.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+You can add line numbers to source listings.
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Yes, you can.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><sup>super</sup>script phrase, <sub>sub</sub>script phrase.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footnotes">
 <hr>
-[1]
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">File <span style="color:#e6db74">&#34;/tmp/easy_install-0mv11wgy/MarkupSafe-2.0.0a1/src/markupsafe/__init__.py&#34;</span>, line <span style="color:#ae81ff">83</span>
-    <span style="color:#66d9ef">return</span> f<span style="color:#e6db74">&#34;{self.__class__.__name__}({super().__repr__()})&#34;</span>
-                                                            <span style="color:#f92672">^</span>
-<span style="color:#a6e22e">SyntaxError</span>: invalid syntax
-</code></pre></div>
+<div class="footnote" id="_footnotedef_1">
+<a href="#_footnoteref_1">1</a>. These are the same
+</div>
+<div class="footnote" id="_footnotedef_2">
+<a href="#_footnoteref_2">2</a>. as is this
+</div>
+</div>
+
             </div>
 	    <hr/>
 	    
@@ -160,26 +244,7 @@ ImportError: cannot import name &#39;SharedDataMiddleware&#39;
 </div>
     <br>
                 
-  
 
-
-
-<div class="card">
-    <div class="card-content">
-        <h1 class="title is-5">Related posts</h1>
-      
-      
-            <h1><a href="https://www.nickcoleman.org/2020/blog-setup-not-complete/">Blog Setup Not Complete</a></h1>
-            <time class="has-text-grey-light is-size-7">18 June 2020</time>
-      
-            <h1><a href="https://www.nickcoleman.org/2020/blog-setup-completed/">Blog Setup Complete</a></h1>
-            <time class="has-text-grey-light is-size-7">17 June 2020</time>
-      
-            <h1><a href="https://www.nickcoleman.org/2020/starting-out/">Starting Out</a></h1>
-            <time class="has-text-grey-light is-size-7">14 June 2020</time>
-      
-    </div>
-</div>
 
     
 <br>
