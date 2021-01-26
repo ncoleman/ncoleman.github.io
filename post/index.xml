@@ -6,10 +6,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright ©2020 Nick Coleman</copyright>
-    <lastBuildDate>Thu, 02 Jul 2020 10:11:40 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://www.nickcoleman.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Gliding</title>
+      <link>https://www.nickcoleman.org/2021/gliding-pic/</link>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.nickcoleman.org/2021/gliding-pic/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>AsciiDoc Test</title>
