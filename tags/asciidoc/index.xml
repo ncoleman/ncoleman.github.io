@@ -24,5 +24,15 @@
  # here is some bash using markdown if [ -x /usr/bin/asciidoctor ] ; then echo Found it! fi   Now using asciidoc formatting [2]</description>
     </item>
     
+    <item>
+      <title>An Article</title>
+      <link>https://www.nickcoleman.org/2019/test-syntax-highlighting-asciidocter/</link>
+      <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.nickcoleman.org/2019/test-syntax-highlighting-asciidocter/</guid>
+      <description>    There are things to note!
+     public static void main( String args[] ) { System.out.println(&amp;#34;Foobar!&amp;#34;); (1) }     1 Print something    </description>
+    </item>
+    
   </channel>
 </rss>

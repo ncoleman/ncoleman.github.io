@@ -6,10 +6,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright ©2020 Nick Coleman</copyright>
-    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Feb 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://www.nickcoleman.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Markdown Test</title>
+      <link>https://www.nickcoleman.org/2021/markdown-test/</link>
+      <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.nickcoleman.org/2021/markdown-test/</guid>
+      <description>Title One # Title One
+Title Two ## Title Two
+Title Three ### Title Three
+Title Four #### Title Four
+Title Five ##### Title Five
+Title Six ###### Title Six
+####### Title Seven ###### Title Seven. Is there a title seven? No, since the markdown appears as itself and not a tag, it appears there is no Title SuU
+  Unordered list Second line  Nested (needs at least two spaces before the markdown tag).</description>
+    </item>
     
     <item>
       <title>Gliding</title>
@@ -86,6 +102,16 @@ This is a new blog using the Hugo static website generator written in Go. It&amp
 Let&amp;rsquo;s go &amp;lt;ahem&amp;gt;. Here&amp;rsquo;s some dummy content to test things out.
 Test highlighting with some code examples:
 Bash if i &amp;lt; 10; then i = 10 fi Looks good apart from the closing fi. I had to change the markdown from two tabs to eight spaces for i = 10 though, otherwise the indentation wasn&amp;rsquo;t recognised as markdown.</description>
+    </item>
+    
+    <item>
+      <title>An Article</title>
+      <link>https://www.nickcoleman.org/2019/test-syntax-highlighting-asciidocter/</link>
+      <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.nickcoleman.org/2019/test-syntax-highlighting-asciidocter/</guid>
+      <description>    There are things to note!
+     public static void main( String args[] ) { System.out.println(&amp;#34;Foobar!&amp;#34;); (1) }     1 Print something    </description>
     </item>
     
     <item>
