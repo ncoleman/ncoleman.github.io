@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Nick Coleman  | Vi Developed for Slow 300 baud Connections</title>
+    <title>Nick Coleman  | AsciiDoc Test</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -31,7 +31,7 @@
                 <br>
                 <h1 class="title is-size-1">
                     
-                        Vi Developed for Slow 300 baud Connections
+                        AsciiDoc Test
                     
                 </h1>   
 		
@@ -49,20 +49,125 @@
 	
 	    
 	<h4 class="title is-5">
-	    &middot; 6 January 2012 &middot;</h4>
+	    &middot; 22 January 2021 &middot;</h4>
 	    <div class="is-6">
 		<p class="subtitle is-size-6 has-text-grey">
 		&nbsp;&nbsp;&nbsp;1 min read</p></div><br/>
 	    
         <div class="tile is-child box">
             <div class="content">
-                <p><em>This is a lost post from my early blogs around 2012, rediscovered and posted here in mid-2020</em></p>
-<p>Interesting discussion on <a href="https://news.ycombinator.com/item?id=3423704">Hacker News</a> about an interview with Bill Joy, creator of Vi.</p>
-<p>Joy mentions that one of the most important use cases was that, in those days, everyone had only a 300 baud connection to the host. That meant the editor had to be efficient in screen repaints while interacting with commands from the user.</p>
-<p>You would think that is no longer a consideration. Almost everyone has at least an ADSL connection.</p>
-<p>It turns out that the more things change, the more they stay the same. That use case has come back.</p>
-<p>The reason? People using smart phones to ssh into their cloud service (such as Amazon AWS), sometimes over a satellite link (while sitting in their yacht in the Bahamas… lucky bastards). Lag becomes important, and vi still fits the bill.</p>
-<p>I like it. Perhaps a new goal for 2012 is to get myself in a boat/place where I can find out for myself how responsive vi is on a laggy connection.</p>
+                <div class="sect1">
+<h2 id="_title_two">Title Two</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_title_three">Title Three</h3>
+<div class="sect3">
+<h4 id="_title_four">Title Four</h4>
+<div class="sect4">
+<h5 id="_title_five">Title Five</h5>
+<div class="sect5">
+<h6 id="_title_six">Title Six</h6>
+<div class="paragraph">
+<p>======= Title Seven</p>
+</div>
+<div class="paragraph">
+<p>Now is <em>the</em> time for all <strong>good</strong> men to come to the aid of their party.  The quick brown fox jumped over the <code>lazy</code> dog.</p>
+</div>
+<div class="paragraph">
+<p>Rubies are red,
+Topazes are blue.</p>
+</div>
+<div class="paragraph">
+<p>Rubies are red,<br/>
+Topazes are blue.</p>
+</div>
+<div class="paragraph">
+<p>Code highlighting <sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-sh" data-lang="sh"># here is some bash using markdown tags
+if [ -x /usr/bin/asciidoctor ] ; then
+    echo Found it!
+fi</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Now using asciidoc tags <sup class="footnote">[<a id="_footnoteref_2" class="footnote" href="#_footnotedef_2" title="View footnote.">2</a>]</sup></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-sh" data-lang="sh"># here is some bash using asciidoc
+if [ -x /usr/bin/asciidoctor ] ; then
+    echo Found it!
+fi</code></pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>$ gem install asciidoctor</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>$ gem install pygments.rb</pre>
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>Quoted text.</p>
+</div>
+<div class="paragraph">
+<p>Another paragraph in quote.</p>
+</div>
+</blockquote>
+</div>
+<div class="paragraph">
+<p>The ’90s popularised a new form of <strong>m</strong>usic known as “grunge” rock.  It’s influence extended well beyond music.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tbody><tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+You can add line numbers to source listings.
+</td>
+</tr>
+</tbody></table>
+</div>
+<div class="admonitionblock note">
+<table>
+<tbody><tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Yes, you can.
+</td>
+</tr>
+</tbody></table>
+</div>
+<div class="paragraph">
+<p><sup>super</sup>script phrase, <sub>sub</sub>script phrase.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footnotes">
+<hr/>
+<div class="footnote" id="_footnotedef_1">
+<a href="#_footnoteref_1">1</a>. These are the same
+</div>
+<div class="footnote" id="_footnotedef_2">
+<a href="#_footnoteref_2">2</a>. as is this
+</div>
+</div>
 
             </div>
 	    <hr/>
@@ -156,7 +261,20 @@
 </div>
     <br>
                 
+  
 
+
+
+<div class="card">
+    <div class="card-content">
+        <h1 class="title is-5">Related posts</h1>
+      
+      
+            <h1><a href="https://www.nickcoleman.org/2019/test-syntax-highlighting-asciidocter/">An Article</a></h1>
+            <time class="has-text-grey-light is-size-7">17 April 2019</time>
+      
+    </div>
+</div>
 
     
 <br>

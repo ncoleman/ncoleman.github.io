@@ -23,8 +23,22 @@ Title Three ### Title Three
 Title Four #### Title Four
 Title Five ##### Title Five
 Title Six ###### Title Six
-####### Title Seven ###### Title Seven. Is there a title seven? No, since the markdown appears as itself and not a tag, it appears there is no Title SuU
-  Unordered list Second line  Nested (needs at least two spaces before the markdown tag).</description>
+####### Title Seven ###### Title Seven. Is there a title seven? No, since the markdown appears as text and is not treated as a tag, it appears there is no Title Seven.
+ ___	Horizontal Rule (three _ or -)</description>
+    </item>
+    
+    <item>
+      <title>AsciiDoc Test</title>
+      <link>https://www.nickcoleman.org/2021/asciidoc-test/</link>
+      <pubDate>Fri, 22 Jan 2021 10:11:40 +0800</pubDate>
+      
+      <guid>https://www.nickcoleman.org/2021/asciidoc-test/</guid>
+      <description>Title Two Title Three Title Four Title Five Title Six ======= Title Seven
+ Now is the time for all good men to come to the aid of their party. The quick brown fox jumped over the lazy dog.
+ Rubies are red, Topazes are blue.
+ Rubies are red, Topazes are blue.
+ Code highlighting [1]
+ # here is some bash using markdown tags if [ -x /usr/bin/asciidoctor ] ; then echo Found it!</description>
     </item>
     
     <item>

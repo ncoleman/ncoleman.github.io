@@ -23,8 +23,8 @@ Title Three ### Title Three
 Title Four #### Title Four
 Title Five ##### Title Five
 Title Six ###### Title Six
-####### Title Seven ###### Title Seven. Is there a title seven? No, since the markdown appears as itself and not a tag, it appears there is no Title SuU
-  Unordered list Second line  Nested (needs at least two spaces before the markdown tag).</description>
+####### Title Seven ###### Title Seven. Is there a title seven? No, since the markdown appears as text and is not treated as a tag, it appears there is no Title Seven.
+ ___	Horizontal Rule (three _ or -)</description>
     </item>
     
   </channel>
