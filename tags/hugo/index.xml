@@ -5,7 +5,7 @@
     <description>Recent content in hugo on Nick Coleman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Copyright ©2020 Nick Coleman</copyright>
+    <copyright>Copyright ©2021 Nick Coleman</copyright>
     <lastBuildDate>Wed, 17 Apr 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://www.nickcoleman.org/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
@@ -13,12 +13,12 @@
     
     <item>
       <title>An Article</title>
-      <link>https://www.nickcoleman.org/2019/test-syntax-highlighting-asciidocter/</link>
+      <link>https://www.nickcoleman.org/2019/test-article/</link>
       <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.nickcoleman.org/2019/test-syntax-highlighting-asciidocter/</guid>
+      <guid>https://www.nickcoleman.org/2019/test-article/</guid>
       <description>    There are things to note!
-     public static void main( String args[] ) { System.out.println(&amp;#34;Foobar!&amp;#34;); (1) }     1 Print something    </description>
+     1 2 3 public static void main( String args[] ) { System.out.println(&amp;#34;Foobar!&amp;#34;); (1) }      1 Print something    </description>
     </item>
     
   </channel>

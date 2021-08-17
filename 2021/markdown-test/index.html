@@ -52,7 +52,7 @@
 	    &middot; 2 February 2021 &middot;</h4>
 	    <div class="is-6">
 		<p class="subtitle is-size-6 has-text-grey">
-		&nbsp;&nbsp;&nbsp;2 min read</p></div><br/>
+		&nbsp;&nbsp;&nbsp;3 min read</p></div><br/>
 	    
         <div class="tile is-child box">
             <div class="content">
@@ -68,10 +68,11 @@
 <p>##### Title Five</p>
 <h6 id="title-six">Title Six</h6>
 <p>###### Title Six</p>
-<p>####### Title Seven
-###### Title Seven.   Is there a title seven? No, since the markdown appears as text and is not treated as a tag, it appears there is no Title Seven.</p>
+<h2 id="horizontal-rule">Horizontal Rule</h2>
+<p>___	Horizontal Rule (three &lsquo;_&rsquo; or &lsquo;-')</p>
 <hr>
-<p>___	Horizontal Rule (three _ or -)</p>
+<h2 id="lists">Lists</h2>
+<h3 id="unordered">Unordered</h3>
 <ul>
 <li>Unordered list</li>
 <li>Second line
@@ -100,10 +101,18 @@
 </ul>
 </li>
 </ul>
+</li>
+</ul>
+<h3 id="ordered">Ordered</h3>
 <ol>
-<li>Ordered List (nested within unordered list)</li>
-<li>Second item</li>
-<li>Third item
+<li>
+<p>Ordered List (nested within unordered list)</p>
+</li>
+<li>
+<p>Second item</p>
+</li>
+<li>
+<p>Third item</p>
 <ol>
 <li>Nested first item (Note indenting by <em>four</em> spaces.)</li>
 <li>second item
@@ -114,13 +123,14 @@
 </li>
 </ol>
 </li>
-</ol>
+<li>
+<p>Ordered List (not nested within another list)</p>
 </li>
-</ul>
-<ol>
-<li>Ordered List (not nested within another list)</li>
-<li>Second item</li>
-<li>Third item
+<li>
+<p>Second item</p>
+</li>
+<li>
+<p>Third item</p>
 <ol>
 <li>Nested first item</li>
 <li>second item
@@ -137,33 +147,116 @@
 </li>
 </ol>
 <p>Nested ordered lists must be indented by four spaces or <del>?</del> tabs.</p>
-<h4 id="table">Table</h4>
+<h2 id="strikethrough">Strikethrough</h2>
+<p>Strikethrough is <del>tildes</del> ~~tildes~~</p>
+<h2 id="superscript-subscript-footnote">Superscript Subscript Footnote</h2>
+<p>Superscript, subscript and footnotes are not supported, although they can be generated with HTML tags.<sup>[1]</sup></p>
+<p>[1] A footnote using superscript but without an &lt;a href&gt; tag.</p>
+<h2 id="syntax-highlighting">Syntax Highlighting</h2>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#a2f;font-weight:bold">package</span> main
+
+<span style="color:#a2f;font-weight:bold">import</span> (
+    <span style="color:#b44">&#34;fmt&#34;</span>
+    <span style="color:#b44">&#34;math/rand&#34;</span>
+    <span style="color:#b44">&#34;time&#34;</span>
+)
+
+<span style="color:#a2f;font-weight:bold">type</span> Moo <span style="color:#a2f;font-weight:bold">struct</span> {
+    Cow   <span style="color:#0b0;font-weight:bold">int</span>
+    Sound <span style="color:#0b0;font-weight:bold">string</span>
+    Tube  <span style="color:#a2f;font-weight:bold">chan</span> <span style="color:#0b0;font-weight:bold">bool</span>
+}
+
+<span style="color:#080;font-style:italic">// A cow will moo until it is being fed
+</span><span style="color:#080;font-style:italic"></span><span style="color:#a2f;font-weight:bold">func</span> <span style="color:#00a000">cow</span>(num <span style="color:#0b0;font-weight:bold">int</span>, mootube <span style="color:#a2f;font-weight:bold">chan</span> Moo) {
+    tube <span style="color:#666">:=</span> <span style="color:#a2f">make</span>(<span style="color:#a2f;font-weight:bold">chan</span> <span style="color:#0b0;font-weight:bold">bool</span>)
+    <span style="color:#a2f;font-weight:bold">for</span> {
+        <span style="color:#a2f;font-weight:bold">select</span> {
+        <span style="color:#a2f;font-weight:bold">case</span> mootube <span style="color:#666">&lt;-</span> Moo{num, <span style="color:#b44">&#34;moo&#34;</span>, tube}:
+            fmt.<span style="color:#00a000">Println</span>(<span style="color:#b44">&#34;Cow number&#34;</span>, num, <span style="color:#b44">&#34;mooed through the mootube&#34;</span>)
+            <span style="color:#666">&lt;-</span>tube
+            fmt.<span style="color:#00a000">Println</span>(<span style="color:#b44">&#34;Cow number&#34;</span>, num, <span style="color:#b44">&#34;is being fed and stops mooing&#34;</span>)
+            mootube <span style="color:#666">&lt;-</span> Moo{num, <span style="color:#b44">&#34;mooh&#34;</span>, <span style="color:#a2f;font-weight:bold">nil</span>}
+            fmt.<span style="color:#00a000">Println</span>(<span style="color:#b44">&#34;Cow number&#34;</span>, num, <span style="color:#b44">&#34;moos one last time out of happyness&#34;</span>)
+            <span style="color:#a2f;font-weight:bold">return</span>
+        <span style="color:#a2f;font-weight:bold">default</span>:
+            fmt.<span style="color:#00a000">Println</span>(<span style="color:#b44">&#34;Cow number&#34;</span>, num, <span style="color:#b44">&#34;mooed through the mootube and was ignored&#34;</span>)
+            time.<span style="color:#00a000">Sleep</span>(time.<span style="color:#00a000">Duration</span>(rand.<span style="color:#00a000">Int31n</span>(<span style="color:#666">1000</span>)) <span style="color:#666">*</span> time.Millisecond)
+        }
+    }
+}
+
+<span style="color:#080;font-style:italic">// The farmer wants to put food in all the mootubes to stop the mooing
+</span><span style="color:#080;font-style:italic"></span><span style="color:#a2f;font-weight:bold">func</span> <span style="color:#00a000">farmer</span>(numcows <span style="color:#0b0;font-weight:bold">int</span>, mootube <span style="color:#a2f;font-weight:bold">chan</span> Moo, farmertube <span style="color:#a2f;font-weight:bold">chan</span> <span style="color:#0b0;font-weight:bold">string</span>) {
+    fmt.<span style="color:#00a000">Println</span>(<span style="color:#b44">&#34;Farmer starts listening to the mootube&#34;</span>)
+    <span style="color:#a2f;font-weight:bold">for</span> hungryCows <span style="color:#666">:=</span> numcows; hungryCows &gt; <span style="color:#666">0</span>; {
+        moo <span style="color:#666">:=</span> <span style="color:#666">&lt;-</span>mootube
+        <span style="color:#a2f;font-weight:bold">if</span> moo.Sound <span style="color:#666">==</span> <span style="color:#b44">&#34;mooh&#34;</span> {
+            fmt.<span style="color:#00a000">Println</span>(<span style="color:#b44">&#34;Farmer heard a moo of relief from cow number&#34;</span>, moo.Cow)
+            hungryCows<span style="color:#666">--</span>
+        } <span style="color:#a2f;font-weight:bold">else</span> {
+            fmt.<span style="color:#00a000">Println</span>(<span style="color:#b44">&#34;Farmer heard a&#34;</span>, moo.Sound, <span style="color:#b44">&#34;from cow number&#34;</span>, moo.Cow)
+            time.<span style="color:#00a000">Sleep</span>(<span style="color:#666">2e9</span>)
+            fmt.<span style="color:#00a000">Println</span>(<span style="color:#b44">&#34;Farmer starts feeding cow number&#34;</span>, moo.Cow)
+            moo.Tube <span style="color:#666">&lt;-</span> <span style="color:#a2f;font-weight:bold">true</span>
+        }
+    }
+    fmt.<span style="color:#00a000">Println</span>(<span style="color:#b44">&#34;Farmer doesn&#39;t hear a single moo anymore. All done!&#34;</span>)
+    farmertube <span style="color:#666">&lt;-</span> <span style="color:#b44">&#34;yey!&#34;</span>
+}
+
+<span style="color:#080;font-style:italic">// The farm starts out with mooing cows that wants to be fed
+</span><span style="color:#080;font-style:italic"></span><span style="color:#a2f;font-weight:bold">func</span> <span style="color:#00a000">runFarm</span>(numcows <span style="color:#0b0;font-weight:bold">int</span>) {
+    farmertube <span style="color:#666">:=</span> <span style="color:#a2f">make</span>(<span style="color:#a2f;font-weight:bold">chan</span> <span style="color:#0b0;font-weight:bold">string</span>)
+    mootube <span style="color:#666">:=</span> <span style="color:#a2f">make</span>(<span style="color:#a2f;font-weight:bold">chan</span> Moo)
+    <span style="color:#a2f;font-weight:bold">for</span> cownum <span style="color:#666">:=</span> <span style="color:#666">0</span>; cownum &lt; numcows; cownum<span style="color:#666">++</span> {
+        <span style="color:#a2f;font-weight:bold">go</span> <span style="color:#00a000">cow</span>(cownum, mootube)
+    }
+    <span style="color:#a2f;font-weight:bold">go</span> <span style="color:#00a000">farmer</span>(numcows, mootube, farmertube)
+    farmerSaid <span style="color:#666">:=</span> <span style="color:#666">&lt;-</span>farmertube
+    <span style="color:#a2f;font-weight:bold">if</span> farmerSaid <span style="color:#666">==</span> <span style="color:#b44">&#34;yey!&#34;</span> {
+        fmt.<span style="color:#00a000">Println</span>(<span style="color:#b44">&#34;All cows are happy.&#34;</span>)
+    }
+}
+
+<span style="color:#a2f;font-weight:bold">func</span> <span style="color:#00a000">main</span>() {
+    <span style="color:#00a000">runFarm</span>(<span style="color:#666">4</span>)
+    fmt.<span style="color:#00a000">Println</span>(<span style="color:#b44">&#34;done&#34;</span>)
+}
+</code></pre></div><h2 id="table">Table</h2>
 <p>Note alignment indicator &lsquo;:&rsquo;.  It appears that the delimiter row cell width has some bearing on the rendered column&rsquo;s width, though it&rsquo;s not obvious what the exact relationship is.  Column A is much wider than the two other columns, yet Column C is not six times wider than Column B (6 x &lsquo;-&rsquo; compared to 1 x &lsquo;-')</p>
 <table>
 <thead>
 <tr>
-<th style="text-align:center">Column A</th>
+<th style="text-align:left">Column A</th>
 <th style="text-align:center">Column B</th>
 <th style="text-align:left">Column C</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center">Row 1</td>
+<td style="text-align:left">Row 1</td>
 <td style="text-align:center">Row 1</td>
 <td style="text-align:left">Row 1</td>
 </tr>
 <tr>
-<td style="text-align:center">Row 2</td>
+<td style="text-align:left">Row 2</td>
 <td style="text-align:center">Cell B</td>
 <td style="text-align:left">Cell C</td>
 </tr>
+<tr>
+<td style="text-align:left">This is a very long line of text.</td>
+<td style="text-align:center">So is this a long line of text.</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Now is the time for all good men to come to the aid of their party.</td>
+<td style="text-align:center">Will it wrap?</td>
+<td style="text-align:left"></td>
+</tr>
 </tbody>
 </table>
-<p>Strikethrough is <del>tildes</del> ~~tildes~~ ^[^1]</p>
-<h2 id="finally">Finally</h2>
-<p>Superscript, subscript and footnotes are not supported, although they can be generated with HTML tags.<sup>[1]</sup></p>
-<p>[1] A footnote.</p>
+<!--  vi: set wrap: -->
 
             </div>
 	    <hr/>

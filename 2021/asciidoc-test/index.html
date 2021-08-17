@@ -57,21 +57,18 @@
         <div class="tile is-child box">
             <div class="content">
                 <div class="sect1">
-<h2 id="_title_two">Title Two</h2>
+<h2 id="_title_two"><a class="link" href="#_title_two">Title Two</a></h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_title_three">Title Three</h3>
+<h3 id="_title_three"><a class="link" href="#_title_three">Title Three</a></h3>
 <div class="sect3">
-<h4 id="_title_four">Title Four</h4>
+<h4 id="_title_four"><a class="link" href="#_title_four">Title Four</a></h4>
 <div class="sect4">
-<h5 id="_title_five">Title Five</h5>
+<h5 id="_title_five"><a class="link" href="#_title_five">Title Five</a></h5>
 <div class="sect5">
-<h6 id="_title_six">Title Six</h6>
+<h6 id="_title_six"><a class="link" href="#_title_six">Title Six</a></h6>
 <div class="paragraph">
-<p>======= Title Seven</p>
-</div>
-<div class="paragraph">
-<p>Now is <em>the</em> time for all <strong>good</strong> men to come to the aid of their party.  The quick brown fox jumped over the <code>lazy</code> dog.</p>
+<p>Now is <em>the</em> time for all <strong>good</strong> men to come to the aid of their party.  The <code>quick</code> brown fox jumped over the <code>lazy</code> dog.</p>
 </div>
 <div class="paragraph">
 <p>Rubies are red,
@@ -86,10 +83,10 @@ Topazes are blue.</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh"># here is some bash using markdown tags
-if [ -x /usr/bin/asciidoctor ] ; then
-    echo Found it!
-fi</code></pre>
+<pre class="rouge highlight" style="background-color: #f8f8f8"><code data-lang="sh"><span style="color: #999988;font-style: italic"># here is some bash using markdown tags</span>
+<span style="color: #000000;font-weight: bold">if</span> <span style="color: #000000;font-weight: bold">[</span> <span style="color: #000080">-x</span> /usr/bin/asciidoctor <span style="color: #000000;font-weight: bold">]</span> <span style="background-color: #f8f8f8">;</span> <span style="color: #000000;font-weight: bold">then
+    </span><span style="color: #0086B3">echo </span>Found it!
+<span style="color: #000000;font-weight: bold">fi</span></code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -97,10 +94,10 @@ fi</code></pre>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh"># here is some bash using asciidoc
-if [ -x /usr/bin/asciidoctor ] ; then
-    echo Found it!
-fi</code></pre>
+<pre class="rouge highlight" style="background-color: #f8f8f8"><code data-lang="sh"><span style="color: #999988;font-style: italic"># here is some bash using asciidoc</span>
+<span style="color: #000000;font-weight: bold">if</span> <span style="color: #000000;font-weight: bold">[</span> <span style="color: #000080">-x</span> /usr/bin/asciidoctor <span style="color: #000000;font-weight: bold">]</span> <span style="background-color: #f8f8f8">;</span> <span style="color: #000000;font-weight: bold">then
+    </span><span style="color: #0086B3">echo </span>Found it!
+<span style="color: #000000;font-weight: bold">fi</span></code></pre>
 </div>
 </div>
 <div class="literalblock">
@@ -151,8 +148,22 @@ Yes, you can.
 </tbody></table>
 </div>
 <div class="paragraph">
-<p><sup>super</sup>script phrase, <sub>sub</sub>script phrase.</p>
+<p><sup>super</sup>script phrase, <sub>sub</sub>script phrase. <span class="line-through">strikethrough</span> phrase</p>
 </div>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_code_listings"><a class="link" href="#_code_listings">Code Listings</a></h4>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight" style="background-color: #f8f8f8"><code data-lang="python"><span style="color: #999988;font-style: italic">#! /usr/bin/env python
+</span><span style="color: #000000;font-weight: bold">import</span> <span style="color: #555555">antigravity</span>
+<span style="color: #000000;font-weight: bold">try</span><span style="background-color: #f8f8f8">:</span>
+    <span style="background-color: #f8f8f8">antigravity</span><span style="background-color: #f8f8f8">.</span><span style="background-color: #f8f8f8">fly</span><span style="background-color: #f8f8f8">()</span>
+<span style="color: #000000;font-weight: bold">except</span> <span style="background-color: #f8f8f8">FlytimeError</span> <span style="color: #000000;font-weight: bold">as</span> <span style="background-color: #f8f8f8">e</span><span style="background-color: #f8f8f8">:</span>
+    <span style="color: #999988;font-style: italic"># um... not sure what to do now.
+</span>    <span style="color: #000000;font-weight: bold">pass</span></code></pre>
 </div>
 </div>
 </div>
@@ -270,7 +281,7 @@ Yes, you can.
         <h1 class="title is-5">Related posts</h1>
       
       
-            <h1><a href="https://www.nickcoleman.org/2019/test-syntax-highlighting-asciidocter/">An Article</a></h1>
+            <h1><a href="https://www.nickcoleman.org/2019/test-article/">An Article</a></h1>
             <time class="has-text-grey-light is-size-7">17 April 2019</time>
       
     </div>

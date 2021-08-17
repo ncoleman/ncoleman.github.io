@@ -5,7 +5,7 @@
     <description>Recent content in markdown on Nick Coleman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Copyright ©2020 Nick Coleman</copyright>
+    <copyright>Copyright ©2021 Nick Coleman</copyright>
     <lastBuildDate>Tue, 02 Feb 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://www.nickcoleman.org/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
@@ -23,8 +23,8 @@ Title Three ### Title Three
 Title Four #### Title Four
 Title Five ##### Title Five
 Title Six ###### Title Six
-####### Title Seven ###### Title Seven. Is there a title seven? No, since the markdown appears as text and is not treated as a tag, it appears there is no Title Seven.
- ___	Horizontal Rule (three _ or -)</description>
+Horizontal Rule ___	Horizontal Rule (three &amp;lsquo;_&amp;rsquo; or &amp;lsquo;-&#39;)
+ Lists Unordered  Unordered list Second line  Nested (needs at least two spaces before the markdown tag). Another line.  Further nesting  Further nesting  Further nesting     Back up two levels   Should be the same level Which level does this appear?</description>
     </item>
     
   </channel>
